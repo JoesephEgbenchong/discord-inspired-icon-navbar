@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import SideBar from './SideBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-3xl font-bold text-green-500 mb-10'>Tailwind css installed successfully!</h1>
+    <div className="flex">
+      <SideBar />
     </div>
   );
 }
